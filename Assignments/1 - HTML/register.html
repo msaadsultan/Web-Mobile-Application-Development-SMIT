@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+</head>
+
+<body>
+
+    <center>
+        <table border="1" cellpadding="5" cellspacing="1">
+            <tr>
+                <td>
+                    <a href="index.html">
+                        <img src="assets/smit.png" width="80" height="20" alt="Logo">
+                    </a>
+                </td>
+                <td><a href="index.html">Home</a></td>
+                <td><a href="about.html">About</a></td>
+                <td><a href="gallery.html">Gallery</a></td>
+                <td><a href="media.html">Media</a></td>
+                <td><a href="contact.html">Contact</a></td>
+                <td><a href="login.html">Login</a></td>
+                <td><a href="register.html">Register</a></td>
+            </tr>
+        </table>
+    </center>
+
+    <hr>
+
+    <h2>Register page</h2>
+
+    <hr>
+
+    <center>
+        <h2>Please register to continue</h2>
+        <p>All the fields are required.</p>
+        <hr>
+        <form>
+            <fieldset style="width: 300px; text-align: left;">
+                <legend>Register</legend>
+
+                <label>Full Name:</label><br>
+                <input type="text" name="fullname" placeholder="Full Name" required><br><br>
+
+                <label>Email:</label><br>
+                <input type="email" name="email" placeholder="Email" required><br><br>
+
+                <label>Password:</label><br>
+                <input type="password" name="password" placeholder="Password" required><br><br>
+
+                <label>Gender:</label><br>
+                Male: <input type="radio" name="gender" value="male">
+                Female: <input type="radio" name="gender" value="female"><br><br>
+
+                <label>Hobbies:</label><br>
+                Coding: <input type="checkbox" name="hobby" value="coding" checked>
+                Football: <input type="checkbox" name="hobby" value="football">
+                Painting: <input type="checkbox" name="hobby" value="painting"><br><br>
+
+                <label>Country:</label><br>
+                <select name="country" required>
+                    <option value="pakistan">Pakistan</option>
+                    <option value="usa">USA</option>
+                    <option value="uk">UK</option>
+                    <option value="india">India</option>
+                    <option value="uae">UAE</option>
+                    <option value="australia">Australia</option>
+                </select><br><br>
+
+                <label>DOB:</label><br>
+                <input type="date" name="dob" required><br><br>
+
+                <label>Upload your photo:</label><br>
+                <input type="file" name="photo" accept="image/*"><br><br>
+
+                <input type="submit" value="Register"><br><br>
+
+                <a href="login.html">Already a user?</a>
+            </fieldset>
+        </form>
+    </center>
+
+    <hr>
+
+    <center>
+        <p>&copy; 2025. All Rights Reserved.</p>
+    </center>
+
+</body>
+
+</html>
