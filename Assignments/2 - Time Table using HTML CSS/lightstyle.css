@@ -1,0 +1,80 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    font-family: 'Courgette', cursive; /* Google Fonts */
+    font-size: 48px;
+    color: #28a745;
+    margin: 0;
+}
+
+.mode-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.mode-button:hover {
+    background-color: #218838;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 24px;
+    font-size: 22px;
+    color: #495057;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+th, td {
+    border: 1px solid #dee2e6;
+    padding: 12px 10px;
+    text-align: center;
+    vertical-align: top;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+th {
+    background-color: #e9ecef;
+    font-weight: 600;
+    color: #495057;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #fcfcfc;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #6c757d;
+}
